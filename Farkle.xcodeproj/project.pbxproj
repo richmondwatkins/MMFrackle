@@ -14,6 +14,7 @@
 		5DD495BC19E5BB080004A5AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD495BB19E5BB080004A5AF /* Images.xcassets */; };
 		5DD495BF19E5BB080004A5AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD495BD19E5BB080004A5AF /* LaunchScreen.xib */; };
 		5DD495CB19E5BB080004A5AF /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD495CA19E5BB080004A5AF /* FarkleTests.m */; };
+		5DD495D919E5BD840004A5AF /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD495D819E5BD840004A5AF /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5DD495C419E5BB080004A5AF /* FarkleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarkleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD495C919E5BB080004A5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DD495CA19E5BB080004A5AF /* FarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarkleTests.m; sourceTree = "<group>"; };
+		5DD495D719E5BD840004A5AF /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
+		5DD495D819E5BD840004A5AF /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				5DD495B219E5BB080004A5AF /* AppDelegate.h */,
+				5DD495D719E5BD840004A5AF /* DieLabel.h */,
+				5DD495D819E5BD840004A5AF /* DieLabel.m */,
 				5DD495B319E5BB080004A5AF /* AppDelegate.m */,
 				5DD495B519E5BB080004A5AF /* ViewController.h */,
 				5DD495B619E5BB080004A5AF /* ViewController.m */,
@@ -222,6 +227,7 @@
 				5DD495B719E5BB080004A5AF /* ViewController.m in Sources */,
 				5DD495B419E5BB080004A5AF /* AppDelegate.m in Sources */,
 				5DD495B119E5BB080004A5AF /* main.m in Sources */,
+				5DD495D919E5BD840004A5AF /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
